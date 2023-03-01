@@ -12,7 +12,7 @@ h1{
      text-align: left;
      font-family: "Lucida Sans", Helvetica, Arial;
      text-decoration: underline;
-     word-spacing: 0.25em;
+     letter-spacing: 0.25em;
      width: fit-content;
      
  }
@@ -22,7 +22,6 @@ h1{
     text-align: center;
     font-weight: bold;
     position: relative;
-
     left: 35%;
 }
 
