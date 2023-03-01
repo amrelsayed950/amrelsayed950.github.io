@@ -2,19 +2,28 @@ body{
     color: #404040;
     font-size: 11pt;
     font-family: Georgia, Garamond, Serif;
+    background-image: url('https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg');
 }
 
 h1{
-    color: #A4A400;
+     color: #A4A400;
      background-color: #F0F0F0;
      font-size: 18pt;
+     text-align: left;
      font-family: "Lucida Sans", Helvetica, Arial;
      text-decoration: underline;
+     word-spacing: 0.25em;
+     width: fit-content;
+     
  }
 
  .heading{
     font-size: 22pt;
     text-align: center;
+    font-weight: bold;
+    position: relative;
+
+    left: 35%;
 }
 
 .link{
@@ -36,9 +45,18 @@ blockquote {
 }
 
 .copy-right{
-    text-align: right;
+    font-family: monospace;
+    text-align: left; 
+    float: right;
+}
+.copy{
+    align-content:center;
 }
 
 .validator{
     text-align: right;
 }
+
+ul {
+    list-style-image: url('https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif');
+  }
