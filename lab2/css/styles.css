@@ -19,7 +19,6 @@ body {
       text-align: center;
 }
 
-
 .choices{
     margin: 10px 0;
     text-align: left;
@@ -46,7 +45,25 @@ p {
     padding: 0px;
     text-align: center;
   }
+  
+  p::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: brown;
+}
+
+
 .home{
     color: black;
     font-weight: bold;
+}
+
+a
+{
+text-decoration: none;
+}
+
+a:hover
+{
+text-decoration:underline;
 }
