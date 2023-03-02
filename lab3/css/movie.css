@@ -93,7 +93,7 @@ q{
 .box{
     display: inline-block;    
 }
-#lifted {
+.lifted {
     position: relative;
     bottom: 0.8em;
 }
