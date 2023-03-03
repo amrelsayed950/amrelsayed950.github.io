@@ -13,9 +13,11 @@
 </head>
 
 <body>
-
+    <div class="container">
     <form action="http://mumstudents.org/params.php">
-
+        <fieldset>
+            <legend>Get Grade:</legend>
+    
         <p>Name: <input type="text" name="name"></p>
         <p>Student ID: <input type="text" name="id"></p>
 
@@ -38,10 +40,24 @@
 
 
         <div>
-            confirm that you are not lying <input type="checkbox" name="isLying" /> 
+            confirm that you are not lying <input type="checkbox" name="isLying"/> 
         </div>
         <input type="submit" value="Get Grade!" />
+    </fieldset>
     </form>
+
+    <div id="validators">
+   <form>
+            <input type="button" value="Back to front page!" onclick="history.back()">
+        </form>
+        <a href="https://validator.w3.org/nu/?doc=https://amrelsayed950.github.io/lab4ab/grades.html">
+        <img class="validate" src="img/w3c-html.png" alt="html validator">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator//validator?uri=https://amrelsayed950.github.io/lab4ab/grades.html">
+            <img  class="validate" src="img/w3c-css.png" alt="css validator">
+        </a>
+    </div>
+</div>
 
 </body>
 
