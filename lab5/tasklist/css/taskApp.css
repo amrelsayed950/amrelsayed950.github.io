@@ -1,0 +1,70 @@
+html {
+  background-color: white;
+}
+
+body {
+  width: 600px;
+  margin: 1em auto;
+  background-color: white;
+  border: 3px solid blue;
+  outline: 1px solid black;
+  padding: 0.5em;
+  font-family: sans-serif;
+
+}
+
+hr {
+  width: 90%;
+  border: 1px solid #D8C858;
+}
+
+h1, h2 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input{
+  width: 67%;
+  margin-bottom: 5px;
+}
+
+.button {
+  background-color: rgb(238,238,238);
+  color: black;
+  border: 1px solid gray;
+  width: 70%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+.col-50{
+  width: 48%;
+  display: inline-block;
+  vertical-align:top;
+  padding: 0px;
+  margin: 0px;
+  
+
+}
+.col-60{
+  width: 48%;
+  display: inline-block;
+  vertical-align:top;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 18px;
+}
+.col-70{
+  width: 70%;
+  display: inline-block;
+}
+
+.container{
+  width: 100%;
+}
+
+.lab{
+  color: rgb(27,38,255);
+}

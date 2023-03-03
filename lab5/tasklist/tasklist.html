@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task List Application</title>
+  <link href="css/taskApp.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <h2 class="lab">Task List Application</h2>
+  <div class="form">
+    <form action="http://mumstudents.org/params.php">
+
+      <div class="container">
+        <div class="col-50">
+          <dl>
+            <dt><label >Task</label></dt>
+            <div>
+              <input required="required" class="input" type="text" id="task" name="task" placeholder="" maxlength="16">
+            </div>
+          </dl>
+          <button class="button" type="submit" onclick="addTask();">Add Task</button>
+          <button class="button" type="submit" onclick="clearTasks();">Clear Tasks</button>
+
+        </div>
+
+        <div class="col-60">
+          <dt><label>Task List</label></dt>
+          <textarea id="taskList" name="taskList" rows="6" cols="35" value="">
+                        </textarea>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script src="js/taskApp.js"></script>
+</body>
+
+</html>
