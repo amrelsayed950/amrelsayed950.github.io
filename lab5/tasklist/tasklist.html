@@ -17,8 +17,10 @@
       <div class="container">
         <div class="col-50">
           <dl>
+            <dd>
             <dt><label>Task</label></dt>
               <input required="required" class="input" type="text" id="task" name="task" placeholder="" maxlength="16">
+            </dd>
           </dl>
           <button class="button" type="submit" onclick="addTask();">Add Task</button>
           <button class="button" type="submit" onclick="clearTasks();">Clear Tasks</button>
@@ -26,7 +28,7 @@
         </div>
 
         <div class="col-60">
-          <dt><label>Task List</label></dt>
+          <div><label>Task List</label></div>
           <textarea id="taskList" name="taskList" rows="6" cols="35">
                         </textarea>
         </div>
