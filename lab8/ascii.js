@@ -17,16 +17,16 @@ window.onload = (function() {
 
     animation.onchange = function() {
         textArea.value = ANIMATIONS[animation.value];
-    }
+    };
 
     /** start button event */
     startBtn.onclick = function() {
-        if (animation.value != 'Blank') {
+        if (animation.value != "Blank") {
             animationFrames = textArea.value.split("=====\n");
             performAnimation();
             isStarted = true;
         }
-    }
+    };
 
     /** stop button event */
     stopBtn.onclick = function() {
@@ -36,7 +36,7 @@ window.onload = (function() {
         stopBtn.disabled = true;
         clearInterval(timer);
         isStarted = false;
-    }
+    };
 
 
     function draw() {
@@ -51,14 +51,14 @@ window.onload = (function() {
 
     fontsize.onchange = function() {
         textArea.style.fontSize = fontSize.value;
-    }
+    };
 
 
     turbo.onchange = function() {
         if (isStarted)
-            if (animation.value != 'Blank')
-                performAnimation()
-    }
+            if(animation.value!="Blank")
+                performAnimation();
+    };
 
     /** Triggers animation(time) */
     function performAnimation() {
@@ -73,7 +73,7 @@ window.onload = (function() {
 
     /**
      * performs animations
-     * @param {String} time 
+     * @param {String} time
      */
     function startAnimation(time) {
         timer = setInterval(function() {
