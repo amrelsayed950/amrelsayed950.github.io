@@ -1,0 +1,50 @@
+
+#main{
+    padding: 0 20px 20px;
+    margin: 120px auto 120px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 1px #dedada;
+    width: 500px;
+
+}
+
+form{
+    margin: 5px;
+}
+input[type=submit],
+input[type=reset] {
+  background-color: #824caf;
+  margin: 3px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #a0458c;
+}
+
+input[type=number],select{
+  border: 1px solid rgb(153, 153, 153);
+  margin: 5px;
+  padding: 3px 10px;
+}
+
+input[type=number]:focus {
+  border: 3px solid #555;
+}
+
+
+
+fieldset {
+  max-width: 450px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #E0E1FF;
+}
+
+legend {
+  border: 2px solid gray;
+  background-color: #F6F8F9;
+  border-radius: 5px;
+}
