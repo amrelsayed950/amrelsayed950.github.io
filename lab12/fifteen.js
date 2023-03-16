@@ -1,6 +1,3 @@
-/**
- * Created by rajkumar on 9/20/2015.
- */
 (function(){
     "use strict";
     //object for empty box
